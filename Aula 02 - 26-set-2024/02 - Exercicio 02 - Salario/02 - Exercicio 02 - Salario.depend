@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1727532047 source:c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 02 - 26-set-2024\02 - exercicio 02 - salario\main.c
+	<stdio.h>
+	<stdlib.h>
+

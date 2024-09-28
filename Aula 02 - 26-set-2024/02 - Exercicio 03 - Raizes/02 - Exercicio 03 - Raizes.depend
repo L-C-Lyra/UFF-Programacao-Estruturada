@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1727532706 source:c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 02 - 26-set-2024\02 - exercicio 03 - raizes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1727533664 source:c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 02 - 26-set-2024\02 - exercicio 04 - poker\main.c
+	<stdio.h>
+	<stdlib.h>
+
