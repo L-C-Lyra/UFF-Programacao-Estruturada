@@ -4,7 +4,7 @@
 int main(){
     int n, cat_a, cat_b, hypotenuse, aux;
 
-    printf("Digite o comprimento maximo da Hipotenusa: ");
+    printf("Digite o Comprimento Maximo da Hipotenusa: ");
     scanf("%d", &n);
 
     for(hypotenuse = 1; hypotenuse <= n; hypotenuse++){
