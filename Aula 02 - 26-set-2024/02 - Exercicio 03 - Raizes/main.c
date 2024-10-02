@@ -5,7 +5,7 @@
 int main(){
     float a, b, c, r1, r2, d;
 
-    prinf("Digite os Valores das Variaveis a, b, c: \n");
+    printf("Digite os Valores das Variaveis a, b, c: \n");
     scanf("%f%f%f", &a, &b, &c);
 
     d = (b * b) - (4 * a * c);

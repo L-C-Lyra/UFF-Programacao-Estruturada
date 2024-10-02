@@ -8,11 +8,11 @@ int main(){
     scanf("%d%d%d", &side_a, &side_b, &side_c);
 
     if((side_a == side_b) && (side_b == side_c)){
-        printf("Triangulo Equilatero.");
+        printf("Triangulo Equilatero!");
     }else if((side_a == side_b) || (side_a == side_c) || (side_b == side_c)){
-        printf("Triangulo Isosceles.");
+        printf("Triangulo Isosceles!");
     }else{
-        printf("Triangulo Escaleno.");
+        printf("Triangulo Escaleno!");
     }
 
     return 0;
