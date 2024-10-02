@@ -7,7 +7,7 @@ int main(){
     double tax = 0.0;
     double net_salary = 0.0;
 
-    printf("Digite as horas trabalhadas: ");
+    printf("Digite as Horas Trabalhadas: ");
     scanf("%d", &hours);
 
     if(hours <= 40){

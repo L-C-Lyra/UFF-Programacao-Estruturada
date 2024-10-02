@@ -2,13 +2,14 @@
 #include <stdlib.h>
 
 int main(){
-    int sideA, sideB, sideC;
+    int side_a, side_b, side_c;
 
-    scanf("%d%d%d", &sideA, &sideB, &sideC);
+    printf("Digite os 3 Lados do Triangulo: \n");
+    scanf("%d%d%d", &side_a, &side_b, &side_c);
 
-    if((sideA == sideB) && (sideB == sideC)){
+    if((side_a == side_b) && (side_b == side_c)){
         printf("Triangulo Equilatero.");
-    }else if((sideA == sideB) || (sideA == sideC) || (sideB == sideC)){
+    }else if((side_a == side_b) || (side_a == side_c) || (side_b == side_c)){
         printf("Triangulo Isosceles.");
     }else{
         printf("Triangulo Escaleno.");

@@ -2,17 +2,18 @@
 #include <stdlib.h>
 
 int main(){
-    int card1, card2, card3;
+    int card_a, card_b, card_c;
 
-    scanf("%d%d%d", &card1, &card2, &card3);
+    printf("Digite as Cartas: \n");
+    scanf("%d%d%d", &card_a, &card_b, &card_c);
 
-    if((card1 == card2) && (card2 == card3)){
+    if((card_a == card_b) && (card_b == card_c)){
         printf("Three of a Kind!");
-    }else if(((card1 == card2 + 1) && (card1 == card3 + 2)) || ((card1 == card3 + 1) && (card1 == card2 + 2)) ||
-             ((card2 == card1 + 1) && (card2 == card3 + 2)) || ((card2 == card3 + 1) && (card2 == card1 + 2)) ||
-             ((card3 == card1 + 1) && (card3 == card2 + 2)) || ((card3 == card2 + 1) && (card3 == card1 + 2))){
+    }else if(((card_a == card_b + 1) && (card_a == card_c + 2)) || ((card_a == card_c + 1) && (card_a == card_b + 2)) ||
+             ((card_b == card_a + 1) && (card_b == card_c + 2)) || ((card_b == card_c + 1) && (card_b == card_a + 2)) ||
+             ((card_c == card_a + 1) && (card_c == card_b + 2)) || ((card_c == card_b + 1) && (card_c == card_a + 2))){
                 printf("Sequence!");
-             }else if((card1 == card2) || (card1 == card3) || (card2 == card3)){
+             }else if((card_a == card_b) || (card_a == card_c) || (card_b == card_c)){
                 printf("One Pair!");
              }else{
                 printf("Eh... Lascou.");
