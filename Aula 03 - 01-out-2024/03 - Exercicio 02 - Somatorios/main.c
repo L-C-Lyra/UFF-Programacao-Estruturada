@@ -20,7 +20,6 @@ int main(){
             cont_three++;
         }
     }
-
     if(cont_three != 0){
         avg_three = sum_three / cont_three;
     }

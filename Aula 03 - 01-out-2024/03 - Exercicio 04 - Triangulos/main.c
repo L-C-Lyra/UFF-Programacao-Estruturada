@@ -16,7 +16,6 @@ int main(){
             while((cat_a * cat_a) + (cat_b * cat_b) < (hypotenuse * hypotenuse)){
                 cat_b++;
             }
-
             if((cat_a * cat_a) + (cat_b * cat_b) == (hypotenuse * hypotenuse)){
                 printf("Hipotenusa = %d; Catetos = %d & %d\n", hypotenuse, cat_a, cat_b);
                 aux = 1;
