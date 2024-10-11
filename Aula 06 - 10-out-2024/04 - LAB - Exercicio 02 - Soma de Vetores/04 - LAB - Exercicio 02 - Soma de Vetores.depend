@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1728653585 source:c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 06 - 10-out-2024\04 - lab - exercicio 02 - soma de vetores\main.c
+	<stdio.h>
+	<stdlib.h>
+
