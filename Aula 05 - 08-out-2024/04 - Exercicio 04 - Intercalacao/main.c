@@ -46,7 +46,7 @@ int main(){
     }
 
     for(i = 0; i < m + n; i++){
-        printf("C[%d] = %d\n", i, vet_mn[i]);
+        printf("\nC[%d] = %d", i, vet_mn[i]);
     }
 
     return 0;
