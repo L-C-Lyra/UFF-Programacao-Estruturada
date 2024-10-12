@@ -15,17 +15,19 @@ int main(){
         printf("X[%d] = ", i);
         scanf("%d", &vet_x[i]);
     }
+    printf("\n");
 
     for(i = 0; i < n; i++){
         printf("Y[%d] = ", i);
         scanf("%d", &vet_y[i]);
     }
+    printf("\n");
 
     for(i = 0; i < n; i++){
         dot_prod += vet_x[i] * vet_y[i];
     }
 
-    printf("\nX . Y = %d", dot_prod);
+    printf("X . Y = %d", dot_prod);
 
     return 0;
 }

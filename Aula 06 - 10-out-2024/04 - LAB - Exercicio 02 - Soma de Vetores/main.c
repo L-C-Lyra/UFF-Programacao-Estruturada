@@ -17,12 +17,14 @@ int main(){
         scanf("%d", &vet_a[i]);
     }
     vet_a[0] = 0;
+    printf("\n");
 
     for(i = 1; i <= n; i++){
         printf("B[%d] = ", i);
         scanf("%d", &vet_b[i]);
     }
     vet_b[0] = 0;
+    printf("\n");
 
     for(i = n; i >= 1; i--){
         digit_sum = vet_a[i] + vet_b[i] + carry_over;
@@ -31,7 +33,7 @@ int main(){
     }
     vet_sum[0] = carry_over;
 
-    printf("\n   A: ");
+    printf("   A: ");
     if(vet_a[0] == 0){
         printf(" ");
 

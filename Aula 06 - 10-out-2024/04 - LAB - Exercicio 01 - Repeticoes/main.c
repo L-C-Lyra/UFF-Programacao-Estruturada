@@ -14,6 +14,7 @@ int main(){
         printf("Seq[%d] = ", i);
         scanf("%d", &vet_seq[i]);
     }
+    printf("\n");
 
     for(i = 0; i < n; i++){
         if(vet_seq[i] >= 0){
@@ -30,7 +31,7 @@ int main(){
                 }
             }
 
-            printf("\nO Numero %d aparece %d vez(es) na Sequencia.", aux, cont);
+            printf("O Numero %d aparece %d vez(es) na Sequencia.", aux, cont);
             cont = 0;
         }
     }
