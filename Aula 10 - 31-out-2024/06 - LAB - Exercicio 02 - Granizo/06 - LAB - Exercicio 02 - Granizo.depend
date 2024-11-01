@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1730464469 source:c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 10 - 31-out-2024\06 - lab - exercicio 02 - granizo\main.c
+	<stdio.h>
+	<stdlib.h>
+
