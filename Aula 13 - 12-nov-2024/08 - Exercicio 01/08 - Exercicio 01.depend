@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1731518245 source:c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 13 - 12-nov-2024\08 - exercicio 01\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
