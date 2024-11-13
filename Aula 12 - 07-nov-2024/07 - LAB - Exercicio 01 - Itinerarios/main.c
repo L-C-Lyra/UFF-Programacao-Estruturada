@@ -6,7 +6,7 @@ int ** matalloc(int m, int n){
     int ** mat;
 
     mat = (int **) malloc(m * sizeof(int *));
-    for(i = 0; i < n; i++){
+    for(i = 0; i < m; i++){
         mat[i] = (int *) malloc(n * sizeof(int));
     }
 
