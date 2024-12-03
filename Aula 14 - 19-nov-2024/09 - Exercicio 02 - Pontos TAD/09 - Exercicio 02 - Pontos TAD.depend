@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1732580245 source:c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 14 - 19-nov-2024\09 - exercicio 02 - pontos tad\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ADT.c"
+
+1732731329 c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 14 - 19-nov-2024\09 - exercicio 02 - pontos tad\adt.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1732581195 c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 14 - 19-nov-2024\09 - exercicio 02 - pontos tad\adt.h
+
+1732581407 source:c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 14 - 19-nov-2024\09 - exercicio 02 - pontos tad\adt.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
