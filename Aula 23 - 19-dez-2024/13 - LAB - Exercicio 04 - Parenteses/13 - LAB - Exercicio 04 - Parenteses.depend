@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1735413089 source:c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 23 - 19-dez-2024\13 - lab - exercicio 04 - parenteses\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ADT.c"
+
+1735413800 c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 23 - 19-dez-2024\13 - lab - exercicio 04 - parenteses\adt.c
+
