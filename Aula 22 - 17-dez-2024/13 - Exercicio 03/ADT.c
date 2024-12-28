@@ -27,9 +27,9 @@ int full_stack(tStack * s_stack){
 void stackprint(tStack * s_stack){
     int i;
 
-    printf("Pilha P[%d]: [", s_stack -> size);
-    for(i = 0; i < s_stack -> size; i++){
-        if(i == (s_stack -> size) - 1){
+    printf("Pilha P[%d]: [", s_stack -> top + 1);
+    for(i = s_stack -> top; i >= 0; i--){
+        if(i == 0){
             printf("%d]\n", s_stack -> vet[i]);
         }else{
             printf("%d, ", s_stack -> vet[i]);
