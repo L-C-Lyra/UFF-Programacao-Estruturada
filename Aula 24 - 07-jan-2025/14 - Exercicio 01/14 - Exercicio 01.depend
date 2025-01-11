@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1736601110 source:c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 24 - 07-jan-2025\14 - exercicio 01\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ADT.c"
+
+1736601237 c:\users\lucas\codeblocksprojects\tcc00347 - programacao estruturada\aula 24 - 07-jan-2025\14 - exercicio 01\adt.c
+
